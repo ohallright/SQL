@@ -1,0 +1,11 @@
+SELECT *
+FROM information_schema.columns
+WHERE COLUMN_NAME like '%hours%'
+ORDER BY COLUMN_NAME
+
+
+/*
+SELECT *
+    FROM INFORMATION_SCHEMA.ROUTINES 
+    WHERE ROUTINE_DEFINITION LIKE '%area%' 
+*/
